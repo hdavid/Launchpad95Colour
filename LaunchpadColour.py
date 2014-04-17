@@ -19,8 +19,8 @@ class LaunchpadColour(Launchpad):
 		self._selector._instrument_controller._scales.scale_note_color = GREEN_THIRD
 		
 		#stepseq
-		self._selector._stepseq._scales.base_note_color = RED_THIRD
-		self._selector._stepseq._scales.scale_note_color = AMBER_THIRD
+		self._selector._stepseq._scale_selector.base_note_color = RED_THIRD
+		self._selector._stepseq._scale_selector.scale_note_color = AMBER_THIRD
 		self._selector._stepseq._note_editor.metronome_color = AMBER_FULL
 		#Velocity colour map. this must remain of lengh 3.
 		self._selector._stepseq._note_editor.velocity_color_map = [GREEN_THIRD,GREEN_HALF,RED_FULL]
